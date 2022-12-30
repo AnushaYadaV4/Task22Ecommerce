@@ -1,0 +1,29 @@
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .shopping-card {
+    justify-content: space-between;
+    background-color: #38015c;
+    padding: 20px 30px;
+  }
+  
+  .product-item {
+    padding: 20px;
+  }
+
+
+  .generics{
+    background-color: rgb(88, 77, 77);
+    padding: 50px;
+    justify-content: center;
+  }
+
+  .generics-text{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 800;
+    color: aliceblue;
+    
+  }

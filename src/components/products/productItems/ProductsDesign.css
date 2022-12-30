@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .productsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .products {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 45%;
+    margin: 0 0 1em 0;
+    padding: 1em;
+   
+  }
+  
+  .products img {
+    margin: 0.5em 0;
+  }
+
+  .addToCart{
+    background-color: rgb(15, 189, 108);
+    height: 40px;
+    width: 100px;
+  }
+
+
+  .form {
+    text-align: right;
+  }
+  
+  .form button {
+    font: inherit;
+    cursor: pointer;
+    background-color: #8a2b06;
+    border: 1px solid #8a2b06;
+    color: white;
+    padding: 0.25rem 2rem;
+    border-radius: 20px;
+    font-weight: bold;
+  }
+  
+  .form button:hover,
+  .form button:active {
+    background-color: #641e03;
+    border-color: #641e03;
+  }
